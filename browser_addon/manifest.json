@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "CookieDealer",
+  "version": "1.0",
+
+  "description": "Proof of Concept browser plugin to demonstrate how stolen cookies can be reused in another browser. The idea is similar to what firesheep was doing in the past, but is written with the modern webextension API and has no fixed list of domains to attack. Additionally, it covers more ways to flexibly steal the cookie. However, this extension needs a server side component where the stolen cookies are fetched from. How they are stolen and transfered to the server is not of any concern to this extension (decoupled). This means it is up to you to transfer the stolen cookies to the server, for example by exploiting missing HTTPOnly plus XSS, missing Secure-flag plus HTTP-MITM or domain hijacking plus parent-domain scoped cookie.",
+
+  "icons": {
+    "48": "icons/mod0-48x48.png"
+  },  
+  "permissions": [
+    "<all_urls>",
+    "cookies",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "tabs"
+  ],
+  
+  "sidebar_action": {
+    "default_icon": "icons/mod0-48x48.png",
+    "default_title" : "CookieDealer",
+    "default_panel": "sidebar/panel.html"
+  }
+}

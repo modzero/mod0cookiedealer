@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90%;
+  font: caption;
+  background-color: #F4F7F8;
+}
+
+p {
+  margin: 1em 2em;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25em;
+}
+
+#dropdown {
+  margin: 1em 1em 0 1em;
+}
+
+#content {
+  margin: 1em 1em 0 1em;
+  height: 90%;
+}
