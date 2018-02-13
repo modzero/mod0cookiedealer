@@ -5,7 +5,7 @@ web extension with a server component to be more flexible. The idea is that stea
 (which can be done in various ways) is decoupled from reusing the cookie in the attacker's
 browser.
 
-This project was developed by Tobias Ospelt (@floyd_ch) from modzero AG (@mod0).
+This project was developed by Tobias Ospelt (@floyd_ch) of modzero (@mod0).
 
 ## The basic idea
 
